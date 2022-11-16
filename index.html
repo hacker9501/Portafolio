@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>EMH PORTAFOLIO</title>
+</head>
+<body>
+    <!-- Seccion Inicio -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/EMH/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" class="seleccionado" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" class="seleccionado" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portfolio" class="seleccionado" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#contacto" class="seleccionado" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+                    <!-- Seccion Iconos del menu-->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <!--Iconos redes-->
+                    <div class="redes">
+                        <a href="https://github.com/hacker9501" target="_blank"><i class="fa-brands fa-github"></i></i></a>
+                        <a href="https://www.linkedin.com/in/elver-mayta-hernandez/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://wa.me/51935295288"  target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>                                    
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span> Elver Mayta Hernandez</span>, Desarrollador Web y Desarrollador Movil</h2>
+                <p class="descripcion">Profesional amante de la tecnologia y el desarrollo 
+                que cada dia estoy en capacitación constante con las 
+                diversas tecnologia del desarrollo Web y Movil.</p>
+                <a href="#portfolio">Ir a Portfolio</a>
+            </div>
+        </div>
+    </section>
+    <!-- Seccion Sobre Mi -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/elver.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, soy <span>Elver Mayta Hernandez</span></h2>
+            <h3>Desarrollador Web Y Desarrollador Movil</h3>
+            <div class="parrafo">
+            <p align="justify">Soy una persona que le gusta trabajar en equipo, ser perseverante, comunicativo, autodidacta, 
+                investigador que cuenta con diversas habilidades en el desarrollo web ( Html, css, Javascript, Php y Mysql ) 
+                y en el desarrollo Movil (Java, Kotlin, React Native y Flutter) que puede ayudarte con los conocimientos que adquirido en la creacion de proyectos de diversas empresas.</p>
+            <p align="justify">Mi objetivo es desarrollarme profesionalmente y personalmente para llegar a convertirme en un gran desarrollador web y Movil.</p></div>
+            <a download="Curriculum" href="Elverdev.pdf" onclick="alerta1()";>Descargar CV</a>
+        </div>
+    </section>
+    <!-- Seccion Servicios -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                    <h4>Desarrollo Web Wordpress</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li><b>Diseño de Paginas web</b></li>
+                        <li><b>E-commerce y Aula Virtual</b></li>
+                    </ul>
+                    <p>Diseño tu pagina web a tu medida de forma profesional Landing page, Onpage, Pagina Web Basica, Empresarial, creacion de tu tienda
+                    virtual online E-commerce y para la venta de tus cursos en linea creacion de tu Aula Virtual.
+                    </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                    <h4>Desarrollo Web Profesional</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                       
+                        <!--<li>Desarrollo de Paginas web</li>-->
+                        <li><b>Desarrollo de Aplicaciones Web</b></li><br>
+                    </ul>
+                    <p>Creo Sistemas Web con interfaces instuitivas y dinamicas para tu empresa que le permitira ahorrar costos, tiempo y Recursos humanos.
+                    Por tanto la rentabilidad de su empresa aumentara y gestionara mejor a sus clientes, proveedores, distribuidores , etc.
+                    </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                    <h4>Desarrollo Movil</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li><b>Desarrollo de Aplicaciones Nativas</b></li>
+                        <li><b>y Aplicaciones Multiplataforma</b></li>
+                    </ul>
+                    <p>Desarrollo aplicaciones nativas Android para que tu negocio lo puedas gestionar desde cualquier lugar y tenerlo en tus
+                    manos y tambien la creacion de aplicaciones multiplataforma para Android y iOS (iPhone).
+                    </p>
+            </div>
+            
+        </div>
+        
+    </section>
+    <!-- Seccion Habilidades -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES</h3>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span><b>Wordpress y Elementor</b></p>
+                <!--<span class="porcentaje">100%</span>-->
+            </div>
+            <div class="barra">
+                <div id="html" class="barra-proceso1"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span><b>Html, Css y Javascript</b></p>
+                <!--<span class="porcentaje">95%</span>-->
+            </div>
+            <div class="barra">
+                <div id="html" class="barra-procesonum1"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span><b>PHP y Mysql</b></p>
+                <!--<span class="porcentaje">90%</span>-->
+            </div>
+            <div class="barra">
+                <div id="bd" class="barra-proceso2"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span><b>Java, Kotlin, React Native y Flutter</b></p>
+                <!--<span class="porcentaje">70%</span>-->
+            </div>
+            <div class="barra">
+                <div id="ps" class="barra-proceso3"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span><b>Git y Github</b></p>
+                <!--<span class="porcentaje">70%</span>-->
+            </div>
+            <div class="barra">
+                <div id="ps" class="barra-proceso3"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span><b>Figma</b></p>
+                <!--<span class="porcentaje">70%</span>-->
+            </div>
+            <div class="barra">
+                <div id="ps" class="barra-proceso3"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Secccion Portafolio -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay">
+                    <a title="" href="https://foodsmachineryperu.com/nuevo/" target="_blank"><img src="img/food.jpg" alt=""></a>
+                    <div class="info">
+                        <h4>Descripcion del Proyecto</h4>
+                        <p>Pagina Web</p>
+                    </div>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay">
+                    <a title="" href="https://buscaris.pe/" target="_blank"><img src="img/buscaris.jpg" alt=""></a>
+                    <div class="info">
+                        <h4>Descripcion del Proyecto</h4>
+                        <p>E-commerce</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- <div class="proyecto">
+                <div class="overlay">
+                    <img src="img/hack.jpg" alt="">
+                    <div class="info">
+                        <h4>Descripcion del Proyecto</h4>
+                        <p>Diseño Web</p>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay">
+                    <a title="" href="https://dimajo.com.pe/" target="_blank"><img src="img/dimajo.jpg" alt=""></a>
+                    <div class="info">
+                        <h4>Descripcion del Proyecto</h4>
+                        <p>E-commerce</p>
+                    </div>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay">
+                    <a title="" href="https://github.com/hacker9501" target="_blank"><img src="img/aplicacionbuscariss.jpg" alt=""></a>
+                    <div class="info">
+                        <h4>Descripcion del Proyecto</h4>
+                        <p>Aplicion Movil Android y iOS</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- <div class="proyecto">
+                <div class="overlay">
+                    <img src="img/hack.jpg" alt="">
+                    <div class="info">
+                        <h4>Descripcion del Proyecto</h4>
+                        <p>Diseño Web</p>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+    <!-- Seccion contacto -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactanos ahora</h3>
+        <div class="contenedor-form">
+            <form action="enviar.php" method="post">
+                <div class="fila mitad">
+                    <input name="nombre" type="text" placeholder="Nombre Completo" class="input-mitad" required>
+                    <input name="email" type="text" placeholder="Direccion de Email" class="input-mitad" required>
+                </div>
+                <div class="fila">
+                    <input name="telefono" type="text" placeholder="Telefono" class="input-full" required>
+                </div>
+                <div class="fila">
+                    <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar" required>
+            </form>
+        </div>
+    </section>
+    <!-- Seccion Footer -->
+    <footer>
+        <p>Todos los derechos reservados © Copyrith - 2022 | by Elver M. Hernández</p><br>
+        <div class="redes">
+            <a href="https://github.com/hacker9501" target="_blank"><i class="fa-brands fa-github"></i></i></a>
+            <a href="https://www.linkedin.com/in/elver-mayta-hernandez/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://wa.me/51935295288" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>  
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
